@@ -4,11 +4,13 @@ import App from "./App";
 import "./index.css";
 import Buttons from "./components/buttons";
 import Cards from "./components/cards";
+import ChatBot from "./components/chatBot";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
     <Buttons />
     <Cards />
+    <ChatBot />
   </React.StrictMode>
 );
