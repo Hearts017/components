@@ -28,10 +28,10 @@ function ArrowButton() {
           <button
             className={`${
               isVisible ? "block" : "hidden"
-            } back-to-top fixed bottom-60 right-12 z-50 flex justify-center items-center w-12 h-12 rounded-full bg-blue-500 text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500`}
+            } back-to-top fixed bottom-60 right-12 z-50 flex justify-center items-center w-12 h-12 rounded-full bg-white text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500`}
             onClick={handleClick}
           >
-            <img src={Arrow} />
+            <img className="opacity-40 bg-opacity-50" src={Arrow} />
           </button>
         </div>
       )}
