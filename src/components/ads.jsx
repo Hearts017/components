@@ -41,14 +41,14 @@ function Popup() {
   }
 
   const popup1 = (
-    <div className="main-com">
-      <div className="body-com">
+    <div className="m-0 p-0 box-border">
+      <div className="flex justify-end items-center">
         <div
-          className="  container-com"
+          className="w-80 h-64 bg-white rounded-xl"
           ref={popup1Ref}
           style={{ visibility: showPopup1 ? "visible" : "hidden" }}
         >
-          <h1 className="btn-set" onClick={handleDismiss1}>
+          <h1 className="cursor-pointer" onClick={handleDismiss1}>
             X
           </h1>
           <img src={ShopeeAds} />
@@ -58,14 +58,14 @@ function Popup() {
   );
 
   const popup2 = (
-    <div className="main-com2">
-      <div className="body-com2">
+    <div className="m-0 p-0 box-border">
+      <div className="flex justify-center items-center">
         <div
-          className="  container-com2"
+          className="w-80 h-64 bg-white rounded-xl"
           ref={popup2Ref}
           style={{ visibility: showPopup2 ? "visible" : "hidden" }}
         >
-          <h1 className="btn-set2" onClick={handleDismiss1}>
+          <h1 className="cursor-pointer" onClick={handleDismiss1}>
             X
           </h1>
           <img src={ShopeeAds2} />
@@ -75,14 +75,14 @@ function Popup() {
   );
 
   const popup3 = (
-    <div className="main-com3">
-      <div className="body-com3">
+    <div className="m-0 p-0 box-border">
+      <div className="flex justify-start items-center">
         <div
-          className="  container-com3"
+          className="w-80 h-64 bg-white rounded-xl"
           ref={popup3Ref}
           style={{ visibility: showPopup3 ? "visible" : "hidden" }}
         >
-          <h1 className="btn-set3" onClick={handleDismiss1}>
+          <h1 className="cursor-pointer" onClick={handleDismiss1}>
             X
           </h1>
           <img src={ShopeeAds3} />
