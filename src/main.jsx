@@ -4,8 +4,8 @@ import App from "./App";
 import "./index.css";
 import Buttons from "./components/buttons";
 import Cards from "./components/cards";
-import ChatBot from "./components/chatBot";
 import Ads from "./components/ads";
+import ArrowButton from "./components/arrowButton";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -13,6 +13,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Ads />
     <Buttons />
     <Cards />
-    <ChatBot />
+    <ArrowButton />
   </React.StrictMode>
 );
